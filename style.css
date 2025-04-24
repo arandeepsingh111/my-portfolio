@@ -224,4 +224,17 @@ body {
     margin: 0;
     font-size: 1rem;
   }
-  
+  @media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: #f0f0f0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
